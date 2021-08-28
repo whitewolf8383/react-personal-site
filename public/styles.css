@@ -1,0 +1,36 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+/* Header Styles */
+header {
+  background-color: #070809;
+}
+.header-div {
+  background-image: url('./images/header-img.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 740px;
+  margin: auto;
+  width: 775px;
+}
+
+.header-div p {
+  color: #fff;
+  font-family: "Righteous";
+  font-size: 25px;
+}
+
+.header-div h1 {
+  color: #fff;
+  font-family: "Rye";
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-align: center;
+}
