@@ -52,23 +52,49 @@ header {
 }
 
 /* Navbar Styles */
-.navbar {
+.navbar-container {
   border-bottom: 1px solid #fff;
   height: 60px;
   margin: auto;
-  text-align: right;
   width: 1110px;
 }
-
 .navbar a {
   color: #fff;
-  line-height: 60px;
   text-decoration: none;
 }
-
+.navbar-nav a {
+  position:relative;
+  left: 500px;
+  font-family: "Roboto Condensed";
+  margin-top: 5px;
+  margin-right: 100px;
+}
 .navbar-title {
   font-family: "Rye";
   font-size: 24px;
   font-weight: 400;
   text-align: left;
+}
+
+/* SectionHeader Styles */
+.sectionheader-div {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 40px;
+  margin-top: 30px;
+  text-align: center;
+}
+.sectionheader-div div {
+  display: inline-block;
+}
+.sectionheader-div div h2 {
+  letter-spacing: 10px;
+}
+.sectionheader-div div hr {
+  color: #fff;
+  height: 2px;
+  width: 165px;
+}
+.bottom-hr {
+  width: 500px;
 }
