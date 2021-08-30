@@ -3,7 +3,7 @@ import React from 'react';
 function SkillsBox(){
   return(
     <div className="skillsbox-div">
-      <div className=" skillsbox skillsbox-left">
+      <div className="skillsbox skillsbox-left">
         <p>Programming Languages</p>
         <ul>
           <li>JavaScript / TypeScript</li>

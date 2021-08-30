@@ -165,3 +165,44 @@ header {
 .skillsbox-right {
   text-align: right;
 }
+.education-div {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 26px;
+  margin: auto;
+  width: 1110px;
+}
+.education-para-head {
+  font-weight: bold;
+  margin-bottom: -6px;
+}
+.school-div {
+  margin-top: 20px;
+}
+.employmentBox-div {
+  color: #fff;
+  font-family: "Roboto";
+  margin: auto;
+  width: 1110px;
+}
+.employmentBox-div li {
+  font-size: 24px;
+  list-style-type: none;
+  padding: 3px 0px;
+}
+.employmentHeading-div {
+  font-size: 26px;
+  display: inline-block;
+  vertical-align: top;
+}
+.employmentHeading-left {
+  width: 655px;
+  text-align: left;
+}
+.employmentHeading-right {
+  width: 455px;
+  text-align: right;
+}
+.employmentHeading-div p {
+  margin-bottom: -8px;
+}

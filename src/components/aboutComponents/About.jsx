@@ -2,6 +2,7 @@ import React from 'react';
 import AboutHeaders from './AboutHeaders';
 import EducationBox from './EducationBox';
 import SkillsBox from './SkillsBox';
+import EmploymentBox from './EmploymentBox';
 
 function About() {
   return (
@@ -21,6 +22,7 @@ function About() {
       <AboutHeaders value="Education"/>
       <EducationBox />
       <AboutHeaders value="Employment"/>
+      <EmploymentBox />
     </div>
   );
 }

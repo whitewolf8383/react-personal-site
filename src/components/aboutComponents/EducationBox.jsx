@@ -7,7 +7,7 @@ function EducationBox(){
       <School 
         degree="Master of Science" 
         school="University of Denver"
-        dates="Jun 2020 - Dec 2021(Expected)"
+        dates="Jun 2020 - Dec 2021"
         course="Web Design and Development"
         gpa="GPA: 4.0 / 4.0"
       />
@@ -15,10 +15,10 @@ function EducationBox(){
         degree="Bachelor of Science" 
         school="Colorado State University"
         dates="Aug 2015 - Dec 2014"
-        course="Computer Science - Concentration: Human Centered Computing"
+        course="Computer Science"
       />
-      <p>Coursework:</p>
-      <p>Object-Oriented Programming, Algorithums and Data Structures, Discrete Structures, 
+      <p className="education-para-head">Coursework:</p>
+      <p>Object-Oriented Programming, Algorithms and Data Structures, Discrete Structures, 
         Human-Computer Interaction, Web Design, Cognitive Psychology, Sensation and 
         Perception, Psychology of Mind, Brain, and Behavior, Ai and Machine Leanering, 
         Database Design, ICT Business, Technical, and Enterprise Architecture, Advanced 
