@@ -7,6 +7,10 @@
   vertical-align: baseline;
 }
 
+body {
+  background-color: #363636;
+}
+
 /* Header Styles */
 header {
   background-color: #070809;
@@ -17,6 +21,7 @@ header {
   background-size: contain;
   height: 740px;
   margin: auto;
+  padding: 30px;
   width: 775px;
 }
 
@@ -24,6 +29,17 @@ header {
   color: #fff;
   font-family: "Righteous";
   font-size: 25px;
+}
+.header-div p:first-child {
+  margin-top: 228px;
+}
+
+.header-div p:nth-child(2) {
+  margin: 18px 0 0 28px;
+}
+
+.header-div p:nth-child(3) {
+  margin: 10px 0 -15px 375px;
 }
 
 .header-div h1 {
@@ -33,4 +49,26 @@ header {
   font-weight: 400;
   letter-spacing: 8px;
   text-align: center;
+}
+
+/* Navbar Styles */
+.navbar {
+  border-bottom: 1px solid #fff;
+  height: 60px;
+  margin: auto;
+  text-align: right;
+  width: 1110px;
+}
+
+.navbar a {
+  color: #fff;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+.navbar-title {
+  font-family: "Rye";
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
 }
