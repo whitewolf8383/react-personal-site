@@ -1,11 +1,11 @@
 import React from 'react';
 
-function SectionHeader() {
+function SectionHeader(props) {
   return(
     <div className="sectionheader-div">
       <div>
-        <hr />
-        <h2>ABOUT ME</h2>
+        <hr className="top-hr"/>
+        <h2>{props.value}</h2>
         <hr className="bottom-hr" />
       </div>
     </div>

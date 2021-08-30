@@ -11,8 +11,10 @@ function App() {
     <div>
       <Header />
       <Navbar />
-      <SectionHeader />
+      <SectionHeader value="ABOUT ME"/>
       <About />
+      <SectionHeader value="PORTFOLIO"/>
+      <SectionHeader value="CONTACT"/>
     </div>
   );
 }

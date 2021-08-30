@@ -89,12 +89,79 @@ header {
 }
 .sectionheader-div div h2 {
   letter-spacing: 10px;
+  margin-bottom: -10px;
 }
-.sectionheader-div div hr {
+.top-hr {
   color: #fff;
   height: 2px;
   width: 165px;
 }
 .bottom-hr {
-  width: 500px;
+  display: inline-block;
+  position:relative;
+  left: 30px;
+  color: #fff;
+  height: 2px;
+  width: 165px;
+}
+
+/* About Styles */
+.about-heading {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 26;
+  font-weight: bold;
+  letter-spacing: 8px;
+  margin-top: -25px;
+  text-align: center;
+}
+.aboutheaders-div {
+  border-bottom: 1px solid #fff;
+  margin: 0 auto 10px auto;
+  text-align: center;
+  width: 1110px;
+}
+.aboutheaders-div h3 {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+}
+.about-p {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 26px;
+  margin: auto;
+  width: 1100px;
+}
+.skillsbox-div {
+  margin: auto;
+  padding-top: 10px;
+  width: 1110px;
+}
+.skillsbox {
+  display:inline-block;
+  width: 370px;
+  vertical-align: top;
+}
+.skillsbox p {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 26px;
+  margin-top: -20px;
+}
+.skillsbox ul {
+  padding: 8px;
+  margin: -10px;
+}
+.skillsbox li {
+  color: #fff;
+  list-style-type: none;
+  font-family: "Roboto";
+  font-size: 24px;
+}
+.skillsbox-center {
+  text-align: center;
+}
+.skillsbox-right {
+  text-align: right;
 }
