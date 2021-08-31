@@ -15,7 +15,7 @@ function About() {
       Passionate about learning new software options for web development, focused on learning 
       through MOOC coursework in free time and continuously working on new projects, both small 
       and large to gain new insight and experience in web development. Open to learning new 
-      frameworks or software, but also pasionate about learning across fields. 
+      frameworks or software, but also passionate about learning across fields. 
       </p>
       <AboutHeaders value="Skills"/>
       <SkillsBox />
