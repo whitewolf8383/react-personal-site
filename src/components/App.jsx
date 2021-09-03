@@ -14,7 +14,6 @@ function App() {
       <Navbar />
       <SectionHeader value="ABOUT ME"/>
       <About />
-      <Portfolio />
       <SectionHeader value="CONTACT"/>
     </div>
   );
