@@ -206,3 +206,81 @@ header {
 .employmentHeading-div p {
   margin-bottom: -8px;
 }
+
+/* Contact Styles */
+.contact-div {
+  background-color: #000;
+  color: #fff;
+  font-family: "Roboto";
+  height: 990px;
+  margin: auto;
+  width: 1110px;
+  text-align: center;
+}
+.infobox-div {
+  background-color: #1F1F1F;
+  display: inline-block;
+  margin: 15px 20px;
+  padding: 20px;
+  width: 495px;
+  text-align: left;
+}
+.infobox-div img {
+  float: left;
+  height: 70px;
+  width: 70px;
+}
+.infobox-div h3 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.infobox-div p {
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.mapLeft-div {
+  display: "inline-block";
+  width: 495px;
+}
+.map-div {
+  background-color: blue;
+  display: "inline-block";
+  height: 240px;
+  width: 495px;
+}
+
+
+/* Footer Styles */
+.footer-div {
+  height: 235px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 1110px;
+}
+.footer-left, .footer-right {
+  display: inline-block;
+  text-align: center;
+  width: 550px;
+}
+.footer-left img {
+  display: block;
+  height: 60px;
+  margin: 45px auto 10px auto;
+  width: 60px;
+}
+.footer-left img:hover {
+  height: 65px;
+  margin: 43px auto 8px auto;
+  width: 65px;
+}
+.footer-left small {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+}
+.footer-right img {
+  height: 170px;
+  width: 261px;
+}

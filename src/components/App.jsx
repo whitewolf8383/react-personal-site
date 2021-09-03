@@ -5,6 +5,8 @@ import Header from './headerComponents/Header';
 import Navbar from './navbarComponents/Navbar';
 import SectionHeader from './SectionHeader';
 import About from './aboutComponents/About';
+import Contact from './contactComponents/Contact';
+import Footer from './footerComponents/Footer';
 
 function App() {
   return(
@@ -13,7 +15,8 @@ function App() {
       <Navbar />
       <SectionHeader value="ABOUT ME"/>
       <About />
-      <SectionHeader value="CONTACT"/>
+      <Contact />
+      <Footer />
     </div>
   );
 }
