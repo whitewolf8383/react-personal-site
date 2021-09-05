@@ -7,7 +7,7 @@ import ContactForm from './ContactForm';
 
 function Contact() {
   return (
-    <div className="contact-div">
+    <div id="contact" className="contact-div">
       <SectionHeader value="CONTACT"/>
       <div className="contact-div-left">
         <InfoBox img={Images.email} name="My Email" subName="keith.francis83@gmail.com"/>
