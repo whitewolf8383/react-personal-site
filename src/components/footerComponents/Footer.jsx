@@ -12,11 +12,13 @@ function Footer() {
   return(
     <div className="footer-div">
       <div className="footer-left">
-        <img onClick={linkedinRedirect} src={LN} />
+        <img onClick={linkedinRedirect} src={LN} alt="LinkedIn Icon" />
         <small>Keith J. Francis | {year}</small>
+        <br />
+        <small>This site made with React.js</small>
       </div>
       <div className="footer-right">
-        <img src={FT} />
+        <img src={FT} alt="Site tags" />
       </div>
     </div>
   );

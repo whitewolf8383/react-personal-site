@@ -6,7 +6,6 @@
   padding: 0;
   vertical-align: baseline;
 }
-
 body {
   background-color: #363636;
 }
@@ -212,10 +211,16 @@ header {
   background-color: #000;
   color: #fff;
   font-family: "Roboto";
-  height: 990px;
+  height: 1040px;
   margin: auto;
   width: 1110px;
   text-align: center;
+}
+.contact-div-left, .contact-div-right {
+  display: inline-block;
+  width: 550px;
+  text-align: center;
+  vertical-align: top;
 }
 .infobox-div {
   background-color: #1F1F1F;
@@ -225,10 +230,18 @@ header {
   width: 495px;
   text-align: left;
 }
-.infobox-div img {
+.infobox-img-div {
+  background-color: #fff;
+  border-radius: 100%;
   float: left;
-  height: 70px;
-  width: 70px;
+  margin-right: 8px;
+  height: 65px;
+  width: 65px;
+}
+.infobox-div img {
+  height: 45px;
+  margin: 10px 10px;
+  width: 45px;
 }
 .infobox-div h3 {
   font-size: 28px;
@@ -239,18 +252,52 @@ header {
   font-size: 16px;
   letter-spacing: 3px;
 }
-
-.mapLeft-div {
-  display: "inline-block";
-  width: 495px;
-}
-.map-div {
+#map {
   background-color: blue;
-  display: "inline-block";
-  height: 240px;
+  margin: 16px auto;
+  height: 270px;
   width: 495px;
 }
 
+/* Form Styles */
+.contactform-div {
+  background-color: #1F1F1F;
+  margin: 10px auto;
+  padding-bottom: 20px;
+  width: 1045px;
+}
+#fName, #email {
+  background-color: #4A4A4A;
+  color: #fff;
+  height: 50px;
+  margin: 20px 35px;
+  padding-left: 10px;
+  width: 450px;
+}
+#subject {
+  background-color: #4A4A4A;
+  color: #fff;
+  height: 50px;
+  margin: auto;
+  padding-left: 10px;
+  width: 970px;
+}
+#message {
+  background-color: #4A4A4A;
+  color: #fff;
+  height: 190px;
+  margin: 20px auto;
+  padding-left: 10px;
+  width: 970px;
+}
+#messageBtn {
+  background-color: #192597;
+  border-radius: 8px;
+  color: #fff;
+  height: 40px;
+  margin-top: -10px;
+  width: 400px;
+}
 
 /* Footer Styles */
 .footer-div {
@@ -267,12 +314,12 @@ header {
 .footer-left img {
   display: block;
   height: 60px;
-  margin: 45px auto 10px auto;
+  margin: 55px auto 10px auto;
   width: 60px;
 }
 .footer-left img:hover {
   height: 65px;
-  margin: 43px auto 8px auto;
+  margin: 53px auto 7px auto;
   width: 65px;
 }
 .footer-left small {
@@ -282,5 +329,6 @@ header {
 }
 .footer-right img {
   height: 170px;
+  margin-top: -80px;
   width: 261px;
 }
