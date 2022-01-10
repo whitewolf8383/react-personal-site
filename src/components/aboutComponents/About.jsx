@@ -10,12 +10,9 @@ function About() {
       <p className="about-heading">Front End Web Developer</p>
       <AboutHeaders value="Objective"/>
       <p className="about-p">
-      Hard-working and enthusiastic graduate student entering final quarter of Masters degree, 
-      seeking a full time remote Front End Web Developer position using React.js and JavaScript. 
-      Passionate about learning new software options for web development, focused on learning 
-      through MOOC coursework in free time and continuously working on new projects, both small 
-      and large to gain new insight and experience in web development. Open to learning new 
-      frameworks or software, but also passionate about learning across fields. 
+      Recent JUMP graduate pursuing a Java Development career, looking to combine 
+      nearly 18 months of industry equivalence experience with a strong digital 
+      mindset to become a valued asset to your organization. 
       </p>
       <AboutHeaders value="Skills"/>
       <SkillsBox />
